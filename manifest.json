@@ -1,0 +1,17 @@
+{
+    "name": "Chat GPT Plus",
+    "version": "1.0.0",
+    "description": "Troll friends into thinking you have chat gpt plus :D",
+    "manifest_version": 3,
+    "author": "hullukoodaajamazkki",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/chat"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
